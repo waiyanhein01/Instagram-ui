@@ -1,0 +1,302 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    height: 100vh;
+}
+
+        /* top bar  */
+.bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid  #615d5d;
+    position: sticky;
+    margin-top: 0%;
+}
+
+.logo {
+    width: 30rem;
+}
+
+.search {
+    width: 100%;
+}
+
+.menu {
+    width: 35rem;
+}
+
+.search-box {
+    border: 1px solid #333333;
+    border-radius: 20px;
+    width: 400px;
+    padding: 5px 10px;
+}
+
+.search-box input {
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search button {
+    border: none;
+    border-radius: 30px;
+    padding: 5px 10px;
+    background-color: #eb4076;
+}
+
+.pd-right {
+    padding-right: 10px;
+}
+
+.menu-items {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(223, 230, 233, 0.13);
+}
+
+        /* for left  */
+.left {
+    width: 30rem;
+    height: 1000px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.image-girl {
+    width: 20%;
+    border: 5px solid rgb(228, 72, 98);
+    border-radius: 50%;
+}
+
+        /* for main contact */
+.contact {
+    width: 100%;
+    height: 1000px;
+    overflow-y: scroll;
+    background-color: #fafafa;
+}
+
+/* ::-webkit-scrollbar {
+    width: 0;
+} */
+
+.story-girl {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(228, 72, 98);
+}
+
+.feed-btn > button {
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+
+.border-none {
+    border: none;
+    background-color: white;
+}
+
+.box {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-bar-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.comment-box {
+    border: 1px solid  #d4cfcf;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color:  #fafafa;
+    width: 100%;
+    padding: 8px;
+}
+
+.comment-box input {
+    width: 350px;
+}
+
+.comment-box input:focus{
+    outline: none;
+}
+
+        /* for right */
+.right {
+    width: 30rem;
+    height: 1000px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.photo-card {
+    column-count: 2;
+    column-gap: 7px;
+}
+
+.pc-radius {
+    border-radius: 7px;
+}
+
+.profile-box {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.profile-gp {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.profile-position {
+    position: relative;
+    right: 10px;
+}
+
+        /* for your repeat code */
+.d-felex {
+    display: flex;
+}
+
+.justift-content-start {
+    justify-content: start;
+}
+
+.justift-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-d-row {
+    flex-direction: row;
+}
+
+.flex-d-column {
+    flex-direction: column;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml {
+    margin-left: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt30 {
+    margin-top: -30px;
+}
+
+.color {
+   opacity: 0.5;
+}
+
+.color-red {
+    color: red;
+}
+
+.mr-and-ml {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.bg-color {
+    background-color: white;
+}
+
+.bg-color1 {
+    background-color: transparent;
+}
+
+.p0-and-m0 {
+    padding: 0;
+    margin: 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid  #fafafa;
+}
+
+.padding {
+    padding: 0 8px;
+}
